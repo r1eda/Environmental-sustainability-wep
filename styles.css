@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+img {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* إضافة تحويلات Flexbox للتخطيط */
+#buttons-section {
+    display: flex;
+    flex-wrap: wrap; /* تحديد لف العناصر إذا لم تتناسب مع العرض */
+    justify-content: center; /* محاذاة العناصر في وسط الشاشة أفقيًا */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px; /* تم زيادة البادينج */
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* تم تحديد عرض الزر */
+    height: 150px; /* تم تحديد ارتفاع الزر */
+}
+
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button i {
+   
+    font-size: 60px; /* Adjust the icon size as needed */
+    /* vertical-align: middle; */
+    margin-right: 5px;
+    padding: 10;
+   align-items: center;
+}
+.button span {
+    /* align-items: center; */
+    font-size: medium;
+    margin-top: 5px; /* Adjust the space between icon and label */
+}
+/* Styling for welcome section */
+#welcome-section {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+
+#welcome-section h2 {
+    font-size: 1.5em; /* Increase font size */
+}
+
+/* Styling for weather section */
+#weather-section {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+
+#weather-section h2 {
+    font-size: 1.5em; /* Increase font size */
+}
+
+#weather-section img {
+    margin-top: 10px; /* Add margin to the top */
+}
+
+/* Styling for ideas section */
+#ideas-section {
+    padding: 20px; /* Add padding */
+}
+
+#ideas-section h2 {
+    font-size: 1.5em; /* Increase font size */
+}
+
+#ideas-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
+}
+
+#ideas-section li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
