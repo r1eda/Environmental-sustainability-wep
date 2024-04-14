@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #a53636; 
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 }
 
 .card {
+    background-color: #fafafa; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;

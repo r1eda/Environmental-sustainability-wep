@@ -2,16 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  
-  #background-color: #8B4513; /* بلون شجرة */
+  background-color: #a53636; /* بلون شجرة */
 }
 
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    
+    padding: 10px 0;
+   
 }
 
 main {
@@ -73,16 +72,25 @@ ul {
 #welcome-section {
     text-align: center; /* Center align text */
     padding: 20px; /* Add padding */
+    border-radius: 5px;
+    background-color: #45a049;
+    margin: 10px;
+    
 }
 
 #welcome-section h2 {
     font-size: 1.5em; /* Increase font size */
+    
 }
 
 /* Styling for weather section */
 #weather-section {
+    
     text-align: center; /* Center align text */
     padding: 20px; /* Add padding */
+     border-radius: 5px;
+    background-color: #45a049;
+    margin: 10px;
 }
 
 #weather-section h2 {
@@ -96,6 +104,9 @@ ul {
 /* Styling for ideas section */
 #ideas-section {
     padding: 20px; /* Add padding */
+    background-color: #45a049;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 #ideas-section h2 {
