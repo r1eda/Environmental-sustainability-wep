@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  
+  #background-color: #8B4513; /* بلون شجرة */
 }
 
 header {
@@ -107,4 +109,5 @@ ul {
 
 #ideas-section li {
     margin-bottom: 10px; /* Add margin between list items */
+    
 }
