@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
   background-color: #a53636; /* بلون شجرة */
+  
 }
 
 header {
@@ -10,7 +11,8 @@ header {
     color: white;
     text-align: center;
     padding: 10px 0;
-   
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
 }
 
 main {
@@ -48,6 +50,7 @@ ul {
     cursor: pointer;
     width: 150px; /* تم تحديد عرض الزر */
     height: 150px; /* تم تحديد ارتفاع الزر */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 
@@ -60,7 +63,7 @@ ul {
     font-size: 60px; /* Adjust the icon size as needed */
     /* vertical-align: middle; */
     margin-right: 5px;
-    padding: 10;
+    padding: 10px;
    align-items: center;
 }
 .button span {
@@ -70,27 +73,35 @@ ul {
 }
 /* Styling for welcome section */
 #welcome-section {
+    color: #f8f7f7;
     text-align: center; /* Center align text */
     padding: 20px; /* Add padding */
     border-radius: 5px;
     background-color: #45a049;
     margin: 10px;
-    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 #welcome-section h2 {
     font-size: 1.5em; /* Increase font size */
     
 }
-
+#weather-ideas-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 /* Styling for weather section */
 #weather-section {
-    
+   flex: 1;
+    display: inline-block;
     text-align: center; /* Center align text */
     padding: 20px; /* Add padding */
      border-radius: 5px;
-    background-color: #45a049;
+    background-color: #d3ebd4;
     margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 #weather-section h2 {
@@ -103,13 +114,18 @@ ul {
 
 /* Styling for ideas section */
 #ideas-section {
-    padding: 20px; /* Add padding */
+    color: #f8f7f7;
+    display: inline-block;
+    flex-grow: 2; /* تحديد نسبة النمو */    
+    padding: 10px; /* Add padding */
     background-color: #45a049;
     border-radius: 5px;
     margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 #ideas-section h2 {
+    
     font-size: 1.5em; /* Increase font size */
 }
 
