@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Background color */
+    background-color: #a53636;
+
+}
+
+header {
+    background-color: #4CAF50; /* Header background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#forum-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#forum-section h2 {
+    font-size: 1.5em; /* Increase font size */
+    margin-bottom: 20px; /* Add space below heading */
+}
+
+#forum-section p {
+    font-size: 1.1em; /* Increase font size */
+    line-height: 1.5; /* Increase line height */
+    margin-bottom: 20px; /* Add space below paragraph */
+}
+
+/* Share buttons */
+.share-buttons {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.share-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.share-button.twitter {
+    background-color: #55acee; /* Twitter blue */
+}
+
+/* Comment button */
+.comment-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
