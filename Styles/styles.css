@@ -42,16 +42,17 @@ ul {
 .button {
     display: inline-block;
     margin: 10px;
-    padding: 20px; /* تم زيادة البادينج */
+    padding: 20px;
     background-color: #4CAF50;
     color: white;
-    text-align: center;
+    text-align: center; /* وضع النص في الوسط */
     border-radius: 5px;
     cursor: pointer;
-    width: 150px; /* تم تحديد عرض الزر */
-    height: 150px; /* تم تحديد ارتفاع الزر */
+    width: 150px;
+    height: 150px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
+
 
 
 .button:hover {
@@ -71,6 +72,7 @@ ul {
     font-size: medium;
     margin-top: 5px; /* Adjust the space between icon and label */
 }
+
 /* Styling for welcome section */
 #welcome-section {
     color: #f8f7f7;

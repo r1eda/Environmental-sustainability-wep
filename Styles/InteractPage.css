@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a53636;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+
+main {
+    padding: 20px;
+}
+#interact-section{
+    align-self: center;
+}
+
+
+
+
+/* إضافة تحويلات Flexbox للتخطيط */
+#buttons-section {
+    display: flex;
+    flex-wrap: wrap; /* تحديد لف العناصر إذا لم تتناسب مع العرض */
+    justify-content: center; /* محاذاة العناصر في وسط الشاشة أفقيًا */
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 26px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; /* وضع النص في الوسط */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    white-space: nowrap; /* تمنع النص من الانقسام على عدة أسطر */
+}
+
+
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button i {
+   
+    font-size: 60px; /* Adjust the icon size as needed */
+    /* vertical-align: middle; */
+    margin-right: 5px;
+    padding: 10px;
+   align-items: center;
+}
+.button span {
+    /* align-items: center; */
+    font-size: 15px;
+    align-items: center;
+    margin-top: 5px; /* Adjust the space between icon and label */
+}
+
+
+
+    
+
+
+
