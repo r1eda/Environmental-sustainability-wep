@@ -55,17 +55,17 @@ main {
 
 .button i {
    
-    font-size: 60px; /* Adjust the icon size as needed */
-    /* vertical-align: middle; */
+    font-size: 60px; 
+  
     margin-right: 5px;
     padding: 10px;
    align-items: center;
 }
 .button span {
-    /* align-items: center; */
+   
     font-size: 15px;
     align-items: center;
-    margin-top: 5px; /* Adjust the space between icon and label */
+    margin-top: 5px;
 }
 
 
