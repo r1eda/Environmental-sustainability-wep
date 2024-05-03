@@ -1,3 +1,7 @@
+:root {
+    --background-gradient:  linear-gradient(to bottom, #2df014, #01690f, #86f804);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin:0;
@@ -48,7 +52,7 @@ ul {
     margin: 10px;
     padding: 20px;
     /* background-color: #4CAF50; */
-    background-image: linear-gradient(to bottom, #8B4513, #FFA500, #A52A2A);
+    background-image: var(--background-gradient);
     color: white;
     text-align: center; /* وضع النص في الوسط */
     border-radius: 5px;
@@ -84,8 +88,10 @@ ul {
     text-align: center; 
     padding: 20px; 
     border-radius: 5px;
+    background-image: var(--background-gradient);
+
     /* background-color: #45a049; */
-    background-image: linear-gradient(to bottom, #8B4513, #FFA500, #A52A2A);
+    /* background-image: linear-gradient(to bottom, #8B4513, #FFA500, #A52A2A); */
     margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -111,7 +117,7 @@ ul {
      border-radius: 5px;
     /* background-color: #d3ebd4; */
     
-    background-image: linear-gradient(to bottom, #8B4513, #FFA500, #A52A2A);
+    background-image: var(--background-gradient);
 
     margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
@@ -135,7 +141,7 @@ ul {
     flex-grow: 2; /* تحديد نسبة النمو */    
     padding: 10px; 
     /* background-color: #45a049; */
-    background-image: linear-gradient(to bottom, #8B4513, #FFA500, #A52A2A);
+    background-image: var(--background-gradient);
     border-radius: 5px;
     margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
